@@ -1,3 +1,43 @@
+################################################################################
+# Alan IF for Highlight.js                                                     #
+# https://github.com/highlightjs/highlightjs-alan                              #
+################################################################################
+
+# ==============================================================================
+#                               Alan Related Files                              
+# ==============================================================================
+# Some ignore patterns for Alan files that might creep-in while working on tests
+# and source examples.
+
+## ==========
+## Alan Files
+## ==========
+*.a3c
+*.ifid
+*.sav
+
+## =============
+## AlanIDE Files
+## =============
+.project
+
+# ==============================================================================
+#                        Custom Work-Patterns Miscellanea                       
+# ==============================================================================
+# Shield repo from various work files which I leave around during dev-frenzy:
+
+# On the fly Backup Files
+___*.*
+
+# Links and URLs
+*.lnk
+*.url
+
+# ==============================================================================
+#                        Highlight.js/Node Base Patterns                        
+# ==============================================================================
+# These are the base .gitignore settings shared by all HJS subprojects...
+
 # Logs
 logs
 *.log
@@ -59,3 +99,4 @@ typings/
 
 # next.js build output
 .next
+

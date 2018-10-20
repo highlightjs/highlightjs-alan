@@ -1,0 +1,112 @@
+################################################################################
+# Alan IF for Highlight.js                                                     #
+# https://github.com/highlightjs/highlightjs-alan                              #
+################################################################################
+
+# Set Git's default behaviour to text-files autodetection, in case users don't
+# have `core.autocrlf` set:
+* text=auto
+
+# ==============================================================================
+#                      File Extensions Setting: Text/Binary                     
+# ==============================================================================
+# Explicitly declare all used file extensions as either text or binary, and tell
+# Git how to handle line-endings normalization.
+
+## ==========
+## Alan Files
+## ==========
+*.a3c      binary
+*.alan     text
+*.i        text
+*.ifid     text
+*.sav      binary
+
+## ========================
+## Alan Game Scripts & Logs
+## ========================
+*.log      text
+*.a3log    text
+*.a3sol    text
+
+## =============
+## SHELL SCRIPTS
+## =============
+*.bat      text eol=crlf
+*.com      text eol=crlf
+*.sh       text eol=lf
+*.ps1      text eol=crlf
+
+## ==================
+## MISC. DATA FORMATS
+## ==================
+*.json     text eol=lf
+*.xml      text
+*.xhtml    text
+*.yaml     text
+*.yml      text
+
+## =================
+## WEB-RELATED FILES
+## =================
+*.htm      text
+*.html     text
+*.css      text
+*.js       text eol=lf
+
+## ===================
+## DOCUMENTATION FILES
+## ===================
+*.adoc       text
+*.asciidoc   text
+*.markdown   text
+*.md         text
+*.txt        text
+COPYING      text
+LICENSE      text
+
+## ============
+## CONFIG FILES
+## ============
+*.cnf          text
+*.conf         text
+*.config       text
+*.ini          text
+*.prefs        text
+.editorconfig  text
+.gitattributes text
+.gitconfig     text
+.gitignore     text
+.gitmodules    text
+
+
+# ==============================================================================
+#                                GitHub Linguist                                
+# ==============================================================================
+#  -- https://github.com/github/linguist
+#
+# Manually define/override some extension so that GitHub's Linguist library can
+# 1) Correctly gather statistics on source files, and
+# 2) Use proper syntax highlighting on GitHub's WebUI.
+
+# NOTE: Alan syntax is not supported by Linguist:
+#      https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
+
+## =================
+## Alan Source Files
+## =================
+# Even if Alan syntax is not supported, hopefully these settings might help the
+# repo statics to show up correctly (long-shot guess):
+*.alan    linguist-language=Alan
+*.i       linguist-language=Alan
+*.alan    linguist-detectable=true
+*.i       linguist-detectable=true
+
+*.ifid    linguist-generated=true
+
+## =============
+## AlanIDE Files
+## =============
+.project   linguist-language=XML
+.project   linguist-generated=true
+
