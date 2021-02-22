@@ -22,10 +22,5 @@
   "bugs": {
     "url": "https://github.com/highlightjs/highlightjs-alan/issues"
   },
-  "homepage": "https://github.com/highlightjs/highlightjs-alan#readme",
-  "devDependencies": {
-    "highlightjs": "^9.12.0",
-    "mocha": "^5.2.0",
-    "should": "^13.2.3"
-  }
+  "homepage": "https://github.com/highlightjs/highlightjs-alan#readme"
 }
