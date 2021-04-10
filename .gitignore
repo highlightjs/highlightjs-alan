@@ -1,10 +1,10 @@
 ################################################################################
 # Alan IF for Highlight.js                                                     #
-# https://github.com/highlightjs/highlightjs-alan                              #
+# https://github.com/highlightjs/highlightjs-alan-if                           #
 ################################################################################
 
 # ==============================================================================
-#                               Alan Related Files                              
+#                               Alan Related Files
 # ==============================================================================
 # Some ignore patterns for Alan files that might creep-in while working on tests
 # and source examples.
@@ -22,7 +22,7 @@
 .project
 
 # ==============================================================================
-#                        Custom Work-Patterns Miscellanea                       
+#                        Custom Work-Patterns Miscellanea
 # ==============================================================================
 # Shield repo from various work files which I leave around during dev-frenzy:
 
@@ -34,7 +34,7 @@ ___*.*
 *.url
 
 # ==============================================================================
-#                        Highlight.js/Node Base Patterns                        
+#                        Highlight.js/Node Base Patterns
 # ==============================================================================
 # These are the base .gitignore settings shared by all HJS subprojects...
 

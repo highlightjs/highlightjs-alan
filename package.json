@@ -1,5 +1,5 @@
 {
-  "name": "highlightjs-alan",
+  "name": "highlightjs-alan-if",
   "version": "1.0.0",
   "description": "highlight.js syntax definition for Alan Interactive Fiction language",
   "main": "alan.js",

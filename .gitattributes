@@ -1,6 +1,6 @@
 ################################################################################
 # Alan IF for Highlight.js                                                     #
-# https://github.com/highlightjs/highlightjs-alan                              #
+# https://github.com/highlightjs/highlightjs-alan-if                           #
 ################################################################################
 
 # Set Git's default behaviour to text-files autodetection, in case users don't
@@ -8,7 +8,7 @@
 * text=auto
 
 # ==============================================================================
-#                      File Extensions Setting: Text/Binary                     
+#                      File Extensions Setting: Text/Binary
 # ==============================================================================
 # Explicitly declare all used file extensions as either text or binary, and tell
 # Git how to handle line-endings normalization.
@@ -81,7 +81,7 @@ LICENSE      text
 
 
 # ==============================================================================
-#                                GitHub Linguist                                
+#                                GitHub Linguist
 # ==============================================================================
 #  -- https://github.com/github/linguist
 #

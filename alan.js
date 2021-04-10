@@ -6,16 +6,16 @@ Category: misc
 License: MIT License
 */
 // ====================================
-// v1.0.1 (2018/10/20) | Alan v3.0beta6 
+// v1.0.2 (2021/04/10) | Alan v3.0beta7
 // ====================================
-// https://github.com/highlightjs/highlightjs-alan
+// https://github.com/highlightjs/highlightjs-alan-if
 // -----------------------------------------------------------------------------
 // NOTE: This syntax required some tweaking in relevance of keywords and modes,
 //       and defining some illegals to prevent autodetection errors in Mocha
 //       tests. The syntaxes it tended to prevail where: axapta, inform7 and diff.
 //       Inform7 (which is also an Interactive Fiction language) was the syntax
 //       that tended to create more autodetection conflicts, as it's similar and
-//       it doesn't define any explicit relevance values. 
+//       it doesn't define any explicit relevance values.
 // -----------------------------------------------------------------------------
 function(hljs) {
   var STRINGS = {
@@ -90,6 +90,9 @@ function(hljs) {
 /*==============================================================================
                                    CHANGELOG
 ================================================================================
+v1.0.2 (2021/04/10) | Alan v3.0beta7 | HLJS 10.7.2
+  * Renamed repository due to name clash with other language:
+      https://github.com/highlightjs/highlightjs-alan-if
 v1.0.1 (2018/10/20) | Alan v3.0beta6 | HLJS 9.13.1
   * First release on Highlight.js project:
       https://github.com/highlightjs/highlightjs-alan
